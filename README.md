@@ -4,8 +4,8 @@
 
 Professor: Glauco Gonçalves
 
-- Alunos: Marcos Antonio
-          Douglas Menezes
-          Danilo Marques
+- Alunos: Marcos Antonio \
+          Douglas Menezes \
+          Danilo Marques 
           
         

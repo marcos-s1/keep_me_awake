@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\dlib_build\sse4_test_build\CMakeFiles\8294ee95a7082f0596fd5577d4f56dc4\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{AA720513-CBAA-331F-9B73-9CB9C9449C1A}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

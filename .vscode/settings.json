@@ -1,0 +1,5 @@
+{
+    "python.analysis.extraPaths": [
+        "./dlib-19.22.0/build/lib.win-amd64-3.8"
+    ]
+}

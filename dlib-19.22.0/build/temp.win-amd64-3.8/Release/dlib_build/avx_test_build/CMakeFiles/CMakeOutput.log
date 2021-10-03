@@ -1,0 +1,56 @@
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: C:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/temp.win-amd64-3.8/Release/dlib_build/avx_test_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_6967f.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft(R) Build Engine versão 16.10.2+857e5a733 para .NET Framework 
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+  Microsoft (R) C/C++ Optimizing Compiler Versão 19.29.30040 para x64
+  Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_6967f.dir\Debug\\" /Fd"cmTC_6967f.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\dlib_build\avx_test_build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_6967f.vcxproj -> C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\dlib_build\avx_test_build\CMakeFiles\CMakeTmp\Debug\cmTC_6967f.exe
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: C:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/temp.win-amd64-3.8/Release/dlib_build/avx_test_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_95a23.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft(R) Build Engine versão 16.10.2+857e5a733 para .NET Framework 
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+  Microsoft (R) C/C++ Optimizing Compiler Versão 19.29.30040 para x64
+  Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_95a23.dir\Debug\\" /Fd"cmTC_95a23.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\dlib_build\avx_test_build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_95a23.vcxproj -> C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\dlib_build\avx_test_build\CMakeFiles\CMakeTmp\Debug\cmTC_95a23.exe
+
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: C:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/temp.win-amd64-3.8/Release/dlib_build/avx_test_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_18fba.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft(R) Build Engine versão 16.10.2+857e5a733 para .NET Framework 
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+  Microsoft (R) C/C++ Optimizing Compiler Versão 19.29.30040 para x64
+  Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+  CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_18fba.dir\Debug\\" /Fd"cmTC_18fba.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\dlib_build\avx_test_build\CMakeFiles\CMakeTmp\CheckIncludeFile.c"
+  cmTC_18fba.vcxproj -> C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\dlib_build\avx_test_build\CMakeFiles\CMakeTmp\Debug\cmTC_18fba.exe
+
+
+
+Determining size of void* passed with the following output:
+Change Dir: C:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/temp.win-amd64-3.8/Release/dlib_build/avx_test_build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):C:/Program Files (x86)/Microsoft Visual Studio/2019/Community/MSBuild/Current/Bin/MSBuild.exe cmTC_c1237.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=16.0 /v:m && Microsoft(R) Build Engine versão 16.10.2+857e5a733 para .NET Framework 
+Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+
+  Microsoft (R) C/C++ Optimizing Compiler Versão 19.29.30040 para x64
+  Copyright (C) Microsoft Corporation. Todos os direitos reservados.
+  SIZE_OF_VOID_PTR.c
+  cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_c1237.dir\Debug\\" /Fd"cmTC_c1237.dir\Debug\vc142.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\dlib_build\avx_test_build\CMakeFiles\CheckTypeSize\SIZE_OF_VOID_PTR.c"
+  cmTC_c1237.vcxproj -> C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\dlib_build\avx_test_build\CMakeFiles\CMakeTmp\Debug\cmTC_c1237.exe
+
+
+

@@ -1,0 +1,374 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{8CA18F91-70F0-33DE-A338-504CD6B8FFEF}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>_dlib_pybind11</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>DynamicLibrary</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\lib.win-amd64-3.8\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">_dlib_pybind11.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">_dlib_pybind11.cp38-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\lib.win-amd64-3.8\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">_dlib_pybind11.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">_dlib_pybind11.cp38-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\lib.win-amd64-3.8\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">_dlib_pybind11.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">_dlib_pybind11.cp38-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\lib.win-amd64-3.8\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">_dlib_pybind11.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">_dlib_pybind11.cp38-win_amd64</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.pyd</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\external\pybind11\include;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\include;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;DLIB_NO_ABORT_ON_2ND_FATAL_ERROR;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;DLIB_VERSION=19.22.0;CMAKE_INTDIR="Debug";_dlib_pybind11_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;DLIB_NO_ABORT_ON_2ND_FATAL_ERROR;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;DLIB_VERSION=19.22.0;CMAKE_INTDIR=\"Debug\";_dlib_pybind11_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\external\pybind11\include;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\include;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\external\pybind11\include;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\include;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\Marcos\AppData\Local\Programs\Python\Python38\libs\Python38.lib;dlib_build\Debug\dlib19.22.0_debug_64bit_msvc1929.lib;ws2_32.lib;winmm.lib;comctl32.lib;gdi32.lib;imm32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/temp.win-amd64-3.8/Release/Debug/_dlib_pybind11.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/lib.win-amd64-3.8/Debug/_dlib_pybind11.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\external\pybind11\include;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\include;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DLIB_NO_ABORT_ON_2ND_FATAL_ERROR;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;DLIB_VERSION=19.22.0;CMAKE_INTDIR="Release";_dlib_pybind11_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DLIB_NO_ABORT_ON_2ND_FATAL_ERROR;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;DLIB_VERSION=19.22.0;CMAKE_INTDIR=\"Release\";_dlib_pybind11_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\external\pybind11\include;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\include;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\external\pybind11\include;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\include;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\Marcos\AppData\Local\Programs\Python\Python38\libs\Python38.lib;dlib_build\Release\dlib19.22.0_release_64bit_msvc1929.lib;ws2_32.lib;winmm.lib;comctl32.lib;gdi32.lib;imm32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/temp.win-amd64-3.8/Release/Release/_dlib_pybind11.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/lib.win-amd64-3.8/_dlib_pybind11.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\external\pybind11\include;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\include;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DLIB_NO_ABORT_ON_2ND_FATAL_ERROR;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;DLIB_VERSION=19.22.0;CMAKE_INTDIR="MinSizeRel";_dlib_pybind11_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DLIB_NO_ABORT_ON_2ND_FATAL_ERROR;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;DLIB_VERSION=19.22.0;CMAKE_INTDIR=\"MinSizeRel\";_dlib_pybind11_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\external\pybind11\include;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\include;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\external\pybind11\include;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\include;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\Marcos\AppData\Local\Programs\Python\Python38\libs\Python38.lib;dlib_build\MinSizeRel\dlib19.22.0_minsizerel_64bit_msvc1929.lib;ws2_32.lib;winmm.lib;comctl32.lib;gdi32.lib;imm32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/temp.win-amd64-3.8/Release/MinSizeRel/_dlib_pybind11.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/lib.win-amd64-3.8/MinSizeRel/_dlib_pybind11.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\external\pybind11\include;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\include;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /bigobj</AdditionalOptions>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <EnableEnhancedInstructionSet>AdvancedVectorExtensions</EnableEnhancedInstructionSet>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <LanguageStandard>stdcpp14</LanguageStandard>
+      <MultiProcessorCompilation>true</MultiProcessorCompilation>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DLIB_NO_ABORT_ON_2ND_FATAL_ERROR;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;DLIB_VERSION=19.22.0;CMAKE_INTDIR="RelWithDebInfo";_dlib_pybind11_EXPORTS</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;DLIB_NO_ABORT_ON_2ND_FATAL_ERROR;DLIB_JPEG_SUPPORT;DLIB_PNG_SUPPORT;DLIB_VERSION=19.22.0;CMAKE_INTDIR=\"RelWithDebInfo\";_dlib_pybind11_EXPORTS</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\external\pybind11\include;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\include;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\external\pybind11\include;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\include;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>C:\Users\Marcos\AppData\Local\Programs\Python\Python38\libs\Python38.lib;dlib_build\RelWithDebInfo\dlib19.22.0_relwithdebinfo_64bit_msvc1929.lib;ws2_32.lib;winmm.lib;comctl32.lib;gdi32.lib;imm32.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/temp.win-amd64-3.8/Release/RelWithDebInfo/_dlib_pybind11.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/lib.win-amd64-3.8/RelWithDebInfo/_dlib_pybind11.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/tools/python/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/tools/python -BC:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/temp.win-amd64-3.8/Release --check-stamp-file C:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/temp.win-amd64-3.8/Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeCInformation.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeRCInformation.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\CMakeFiles\3.21.1\CMakeCCompiler.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\CMakeFiles\3.21.1\CMakeCXXCompiler.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\CMakeFiles\3.21.1\CMakeRCCompiler.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\CMakeFiles\3.21.1\CMakeSystem.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\cmake_utils\tell_visual_studio_to_use_static_runtime.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\dlib\__init__.py.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/tools/python/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/tools/python -BC:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/temp.win-amd64-3.8/Release --check-stamp-file C:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/temp.win-amd64-3.8/Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeCInformation.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeRCInformation.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\CMakeFiles\3.21.1\CMakeCCompiler.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\CMakeFiles\3.21.1\CMakeCXXCompiler.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\CMakeFiles\3.21.1\CMakeRCCompiler.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\CMakeFiles\3.21.1\CMakeSystem.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\cmake_utils\tell_visual_studio_to_use_static_runtime.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\dlib\__init__.py.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/tools/python/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/tools/python -BC:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/temp.win-amd64-3.8/Release --check-stamp-file C:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/temp.win-amd64-3.8/Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeCInformation.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeRCInformation.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\CMakeFiles\3.21.1\CMakeCCompiler.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\CMakeFiles\3.21.1\CMakeCXXCompiler.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\CMakeFiles\3.21.1\CMakeRCCompiler.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\CMakeFiles\3.21.1\CMakeSystem.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\cmake_utils\tell_visual_studio_to_use_static_runtime.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\dlib\__init__.py.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/tools/python/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/tools/python -BC:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/temp.win-amd64-3.8/Release --check-stamp-file C:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/temp.win-amd64-3.8/Release/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeCInformation.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeRCInformation.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Platform\Windows.cmake;C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\CMakeFiles\3.21.1\CMakeCCompiler.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\CMakeFiles\3.21.1\CMakeCXXCompiler.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\CMakeFiles\3.21.1\CMakeRCCompiler.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\CMakeFiles\3.21.1\CMakeSystem.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\dlib\cmake_utils\tell_visual_studio_to_use_static_runtime.cmake;C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\dlib\__init__.py.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\dlib.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\matrix.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\vector.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\svm_c_trainer.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\svm_rank_trainer.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\decision_functions.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\other.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\basic.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\cca.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\sequence_segmenter.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\svm_struct.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\image.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\image2.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\image3.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\image4.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\rectangles.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\object_detection.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\shape_predictor.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\correlation_tracker.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\face_recognition.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\cnn_face_detector.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\global_optimization.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\image_dataset_metadata.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\numpy_returns.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\line.cpp" />
+    <ClCompile Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\tools\python\src\gui.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\ZERO_CHECK.vcxproj">
+      <Project>{C09D23B7-0617-3A17-A3C7-15B1E717B65B}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\Marcos\Documents\GitHub\sigmoidal_ai\sonolencia\dlib-19.22.0\build\temp.win-amd64-3.8\Release\dlib_build\dlib.vcxproj">
+      <Project>{710961A7-ECE0-3AF1-8791-CCB42EB74108}</Project>
+      <Name>dlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

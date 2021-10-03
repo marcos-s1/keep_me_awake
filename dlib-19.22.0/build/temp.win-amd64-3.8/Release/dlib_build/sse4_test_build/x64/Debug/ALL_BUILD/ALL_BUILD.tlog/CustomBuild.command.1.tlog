@@ -1,0 +1,10 @@
+^C:\USERS\MARCOS\DOCUMENTS\GITHUB\SIGMOIDAL_AI\SONOLENCIA\DLIB-19.22.0\DLIB\CMAKE_UTILS\TEST_FOR_SSE4\CMAKELISTS.TXT
+setlocal
+C:\Users\Marcos\AppData\Local\Programs\Python\Python38\Lib\site-packages\cmake\data\bin\cmake.exe -SC:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/dlib/cmake_utils/test_for_sse4 -BC:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/temp.win-amd64-3.8/Release/dlib_build/sse4_test_build --check-stamp-file C:/Users/Marcos/Documents/GitHub/sigmoidal_ai/sonolencia/dlib-19.22.0/build/temp.win-amd64-3.8/Release/dlib_build/sse4_test_build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
